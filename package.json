@@ -1,10 +1,22 @@
 {
   "name": "lizzybot",
   "version": "1.0.0",
+  "description": "LizzyBot – Fully automated AI Telegram bot with Ko-fi & Mongo integration",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  ...
-}
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "mongoose": "^7.6.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.27.0",
+    "telegraf": "^4.15.0"
+  }
 }
